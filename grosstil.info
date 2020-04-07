@@ -1,0 +1,41 @@
+name = Grosstil
+description = Theme for grosstil.by
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/views.css
+stylesheets[all][] = css/mobilepanel.css
+stylesheets[all][] = css/responsive.css
+
+scripts[] = js/tweenmax.js
+scripts[] = js/smoothscroll.js
+scripts[] = js/mobilepanel.js
+scripts[] = js/main.js
+
+regions[header]       = Header
+regions[slider]       = Slider
+regions[highlighted]  = Highlighted
+regions[content]      = Content
+regions[info_blocks]  = Info Blocks
+regions[map]          = Map
+regions[footer]       = Footer
+regions[mobile_panel] = Mobile Panel
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Information 
+version = "1.0"
+core = "7.x"
+project = "drupal"
+
+

@@ -1,0 +1,55 @@
+
+/*-------------------------------------------*
+/* < 1400
+/*-------------------------------------------*/
+
+@media all and (max-width: 1399px) {
+
+#block-system-main-menu,
+#block-block-6,
+#block-block-7,
+#block-block-8,
+#block-block-13 {
+    display: none;
+}
+
+.phone {
+	display: block;
+    padding: 10px 0;
+	font-size: 20px;
+}
+
+.phone a {
+    color: #fff;
+}
+
+}
+
+/*-------------------------------------------*
+/* < 768
+/*-------------------------------------------*/
+
+@media all and (max-width: 767px) {
+	
+#logo {
+    width: 200px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.region-footer {
+    -ms-flex-direction: column;
+    flex-direction: column;
+	-ms-flex-align: center;
+    align-items: center;
+}
+
+.field-name-field-product-img {
+    width: 100%;
+}
+
+}
+
+
