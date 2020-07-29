@@ -1,20 +1,4 @@
 /*-------------------------------------------*
-/* Slider
-/*-------------------------------------------*/
-
-.view-slider .view-content {
-	display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-}
-
-.view-slider .slide {
-	-webkit-flex: 0 0 50%;
-	flex: 0 0 50%;
-}
-
-/*-------------------------------------------*
 /* Products
 /*-------------------------------------------*/
 
